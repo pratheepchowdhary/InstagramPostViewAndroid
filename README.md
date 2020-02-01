@@ -19,6 +19,11 @@ Usage
 
 **1.** Add the following to your **build.gradle**.
 ```groovy
+repositories {
+    maven {
+        url  "https://dl.bintray.com/pratheepchowdhary/maven" 
+    }
+}
 dependencies {
   implementation 'in.androidhunt.instapost:InstagramPostViewAndroid:1.0.3'
 }
